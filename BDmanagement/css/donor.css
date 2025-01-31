@@ -1,0 +1,143 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Panel Styling */
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.panel-heading {
+    background-color: #0d8b72;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.form-control:focus {
+    border-color: #0d8b72;
+    outline: none;
+    box-shadow: 0 0 6px rgba(13, 139, 114, 0.5);
+}
+
+/* Responsive Columns for Fields */
+.col-half {
+    flex: 0 0 48%;
+    margin-right: 4%;
+}
+
+.col-half:last-child {
+    margin-right: 0;
+}
+
+/* Button Styling */
+button.btn {
+    background-color: #0d8b72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button.btn:hover {
+    background-color: #086b57;
+}
+
+/* Alerts */
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.fade-out-5 {
+    animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+
+    .col-half {
+        flex: 0 0 100%;
+        margin-right: 0;
+    }
+}

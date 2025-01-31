@@ -1,0 +1,120 @@
+/* Center and beautify search forms */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f7f9fc; /* Light background color for the page */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #333; /* Darker color for better readability */
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #0d8b72; /* Theme color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0b6f5a; /* Darker shade for hover effect */
+}
+
+/* General styling for the table container */
+.row {
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background for the table */
+}
+
+.table th {
+    background-color: #0d8b72; /* Theme color */
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table td {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Light background for odd rows */
+}
+
+.table tr:nth-child(even) {
+    background-color: #d6f5ed; /* Light theme color background for even rows */
+}
+
+.table tr:hover {
+    background-color: #cde4df; /* Hover effect */
+}
+
+.table-condensed {
+    border: 1px solid #ddd;
+}
+
+.bg-success {
+    background-color: #d6f5ed !important; /* Match success row style */
+}
+
+.bg-danger {
+    background-color: #f8d7da !important; /* Match danger row style */
+    color: #721c24; /* Adjust text color for danger row */
+}
+
+/* Emphasize text for the total blood units or donors */
+label, .emphasize {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d8b72;
+}
+
+/* Link styling in the table */
+a {
+    color: #0d8b72;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
