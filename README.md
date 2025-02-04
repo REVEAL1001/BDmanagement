@@ -17,6 +17,9 @@ Blood Donation Management System is a web-based application developed using HTML
 - **JavaScript**: For client-side scripting.
 - **PHP**: For server-side scripting and database interaction.
 
+## Demo Video
+https://www.youtube.com/watch?v=fWHrVSBlqOI
+
 ## Installation
 
 1. Clone the repository:
