@@ -22,3 +22,8 @@ Blood Donation Management System is a web-based application developed using HTML
 1. Clone the repository:
    ```bash
    git clone https://github.com/REVEAL1001/BDmanagement.git
+   ```
+2. Move the `BDmanagement` directory to Xampp/htdocs
+3. Start Apache and Sql server and Import donor.sql file in PhpMyAdmin.
+
+Created by: Sambardhan Khanal (240110, 15380797)
