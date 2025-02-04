@@ -8,7 +8,7 @@ Blood Donation Management System is a web-based application developed using HTML
 - **Donor Registration and Management**: Stores and fetches data of donated bloods and donors.
 - **Blood Inventory Management**: Manages the inventory of different blood types in the blood bank.
 - **Security and Access Control**: Only admins can add blood inventory details.
-- **Responsive Design**: •	The website is optimized for different devices.
+- **Responsive Design**: The website is optimized for different devices.
 
 ## Technologies Used
 
